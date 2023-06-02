@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Intégration du favicon -->
+    <link rel="shortcut icon" href="../ressources/images/favicon.png" type="image/png">
+    <!-- Intégration du Jquery -->
+    <script src="../../../jquery/jquery.3.7.0.js"></script>
+    <!-- Intégration du mixitup -->
+    <script src="../../../mixitup-3/dist/mixitup.min.js"></script>
+    <!-- Intégration de icons -->
+    <script src="https://kit.fontawesome.com/18514c8a05.js" crossorigin="anonymous"></script>
+    <!-- Intégration de la feuille de style -->
+    <link rel="stylesheet" href="../freshly.css">
+    <!-- Intégration du media query -->
+    <link rel="stylesheet" href="../media_query.css">
+    <title>Menu_freshly</title>
+</head>
+
+<body id="gradient_color">
+    <header class="header wrapper">
+        <a href="#">
+            <img src="../ressources/images/logo.png" alt="logo">
+            <h1>Freshly Restaurant</h1>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../about_freshly/index.html">About</a>
+                </li>
+                <li>
+                    <a href="../menus_freshly/index.html" class="active">Menus</a>
+                </li>
+                <li>
+                    <a href="../contact_freshly/index.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main wrapper">
+        <article class="menu">
+            <h2>Details of our menus</h2>
+            <p>Choose your main course according to your menu !</p>
+            <div class="button">
+                <button data-filter="all">ALL</button>
+                <button data-filter=".meat">MEAT</button>
+                <button data-filter=".vegan">VEGAN</button>
+                <button data-filter=".fish">FISH</button>
+            </div>
+            <div class="mixi mixi_grid">
+                <figure class="card mix fish">
+                    <img src="../menus_freshly/menus/fish-01.jpg" alt="fish-01">
+                    <figcaption class="overlay">
+                        <a href="#">
+                            <img src="../ressources/images/fork-knife.svg" alt="fork">
+                            <p>Grilled mussels</p>
+                        </a>
+
+                    </figcaption>
+                </figure>
+                <figure class="card mix vegan">
+                    <img src="../menus_freshly/menus/vegan-03.jpg" alt="vegan-03">
+                    <figcaption class="overlay">
+                        <a href="">
+                            <img src="../ressources/images/fork-knife.svg" alt="fork">
+                            <p>Mixed vegetables</p>
+                        </a>
+                    </figcaption>
+                </figure>
+                <figure class="card mix meat">
+                    <img src="../menus_freshly/menus/meat-03.jpg" alt="meat-03">
+                    <figcaption class="overlay">
+                        <a href="">
+                            <img src="../ressources/images/fork-knife.svg" alt="fork">
+                            <p>Freshly kebabs</p>
+                        </a>
+                    </figcaption>
+                </figure>
+                <figure class="card mix fish">
+                    <img src="../menus_freshly/menus/fish-02.jpg" alt="fish-02">
+                    <figcaption class="overlay">
+                        <a href="">
+                            <img src="../ressources/images/fork-knife.svg" alt="fork">
+                            <p>Cajun shrimp</p>
+                        </a>
+                    </figcaption>
+                </figure>
+                <figure class="card mix meat">
+                    <img src="../menus_freshly/menus/meat-01.jpg" alt="fish-02">
+                    <figcaption class="overlay">
+                        <a href="">
+                            <img src="../ressources/images/fork-knife.svg" alt="fork">
+                            <p>Freshly burger</p>
+                        </a>
+                    </figcaption>
+                </figure>
+                <figure class="card mix vegan">
+                    <img src="../menus_freshly/menus/vegan-02.jpg" alt="vegan-02">
+                    <figcaption class="overlay">
+                        <a href="">
+                            <img src="../ressources/images/fork-knife.svg" alt="fork">
+                            <p>Grilled eggplants</p>
+                        </a>
+                    </figcaption>
+                </figure>
+                <figure class="card mix meat">
+                    <img src="../menus_freshly/menus/meat-02.jpg" alt="meat-02">
+                    <figcaption class="overlay">
+                        <a href="">
+                            <img src="../ressources/images/fork-knife.svg" alt="fork">
+                            <p>Beef stew with pasta</p>
+                        </a>
+                    </figcaption>
+                </figure>
+                <figure class="card mix fish">
+                    <img src="../menus_freshly/menus/fish-03.jpg" alt="fish-03">
+                    <figcaption class="overlay">
+                        <a href="">
+                            <img src="../ressources/images/fork-knife.svg" alt="fork">
+                            <p>Grilled salmon</p>
+                        </a>
+                    </figcaption>
+                </figure>
+                <figure class="card mix vegan last_img">
+                    <img src="../menus_freshly/menus/vegan-01.jpg" alt="vegan-01">
+                    <figcaption class="overlay">
+                        <a href="">
+                            <img src="../ressources/images/fork-knife.svg" alt="fork">
+                            <p>Vegetable Jambalaya</p>
+                        </a>
+                    </figcaption>
+                </figure>
+            </div>
+            <section>
+                <h2>Deserts</h2>
+                <p>Here are the deserts you can choose to finish your meal (included in your menu).</p>
+                <div class="desert_grid">
+                    <figure class="card">
+                        <img class="image" src="../menus_freshly/menus/desert-01.jpg" alt="desert-01">
+                        <figcaption class="overlay">
+                            <a href="">
+                                <img src="../ressources/images/fork-knife.svg" alt="fork">
+                                <p>Tiramisu</p>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img class="image" src="../menus_freshly/menus/desert-02.jpg" alt="desert-02">
+                        <figcaption class="overlay">
+                            <a href="">
+                                <img src="../ressources/images/fork-knife.svg" alt="fork">
+                                <p>Freshly Pancakes</p>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="card last_img">
+                        <img class="image" src="../menus_freshly/menus/desert-03.jpg" alt="desert-03">
+                        <figcaption class="overlay">
+                            <a href="">
+                                <img src="../ressources/images/fork-knife.svg" alt="fork">
+                                <p>Redberries cup</p>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+            <section>
+                <h2>Cocktails</h2>
+                <p>Soft drinkgs are included, but if you want you can order one of our excellent cocktails (not included
+                    in the menu).</p>
+                <div class="cocktails_grid">
+                    <figure class="card">
+                        <img class="image" src="../menus_freshly/menus/desert-01.jpg" alt="desert-01">
+                        <figcaption class="overlay">
+                            <a href="">
+                                <img src="../ressources/images/fork-knife.svg" alt="fork">
+                                <p>Winter Whiskey</p>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="card">
+                        <img class="image" src="../menus_freshly/menus/desert-02.jpg" alt="desert-02">
+                        <figcaption class="overlay">
+                            <a href="">
+                                <img src="../ressources/images/fork-knife.svg" alt="fork">
+                                <p>Paloma cocktail</p>
+                            </a>
+                        </figcaption>
+                    </figure>
+                    <figure class="card last_img">
+                        <img class="image" src="../menus_freshly/menus/desert-03.jpg" alt="desert-03">
+                        <figcaption class="overlay">
+                            <a href="">
+                                <img src="../ressources/images/fork-knife.svg" alt="fork">
+                                <p>Bellini cocktail</p>
+                            </a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </section>
+        </article>
+        <script>
+            $(document).ready(function () {
+                let mixer = mixitup(".mixi")
+            });
+        </script>
+    </main>
+    <footer>
+        <div class="footer-bg">
+            <section>
+                <h4>Opening hours</h4>
+                <ul>
+                    <li>Monday: Closed</li>
+                    <li>Tue-Wed : 9am - 10pm</li>
+                    <li>Thu-Fri : 9am - 10pm</li>
+                    <li>Sat-Sun : 5pm - 10pm</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Contact</h4>
+                <address>
+                    <p>13 Christopher Street</p>
+                    <p>New York,</p>
+                    <p>NY 10014-3543</p>
+                    <a href="tel:+0120008009999">+01 2000 800 9999</a>
+                </address>
+            </section>
+            <section>
+                <h4>Social networks</h4>
+                <div>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fab fa-instagram"></span>
+                    </a>
+                    <a href="#"><span class="fa fa-pinterest-p"></span>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <div class="footer">
+            <img src="../ressources/images/logo-3wa.png" alt="logo-footer">
+            <p>Cet exercice de <a href="#">3W Academy</a> est mis à disposition <a href="#">pour l'usage personnel des
+                    étudiants. Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification -
+                    International</a>.</p>
+            <p>Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de contact@3wa.fr. Les
+                maquettes ont été réalisées par <a href="#">Catherine Denos</a>. </p>
+        </div>
+    </footer>
+</body>
+
+</html>
