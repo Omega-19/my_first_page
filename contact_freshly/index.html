@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Intégration du favicon -->
+    <link rel="shortcut icon" href="../ressources/images/favicon.png" type="image/png">
+    <!-- Intégration de icons -->
+    <script src="https://kit.fontawesome.com/18514c8a05.js" crossorigin="anonymous"></script>
+    <!-- Intégration de la feuille de style -->
+    <link rel="stylesheet" href="../freshly.css">
+    <!-- Intégration du media query -->
+    <link rel="stylesheet" href="../media_query.css">
+    <title>Contact_freshly</title>
+</head>
+
+<body id="gradient_color">
+    <header class="header wrapper">
+        <a href="#">
+            <img src="../ressources/images/logo.png" alt="logo">
+            <h1>Freshly Restaurant</h1>
+        </a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a href="../about_freshly/index.html">About</a>
+                </li>
+                <li>
+                    <a href="../menus_freshly/index.html">Menus</a>
+                </li>
+                <li>
+                    <a href="../contact_freshly/index.html" class="active">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main wrapper">
+        <section class="center">
+            <h2>Contact us</h2>
+            <p>If your want to make a reservation, please complete this form.</p>
+            <p>Fields with <span>*</span> are required.</p>
+            <form action="/action_page">
+                <div class="formulaire">
+                        <fieldset>
+                            <legend>Reservation</legend>
+                            <label for="date"></label><span>*</span>Date<input type="text" name="datae" id="date" placeholder="jj / mm / aaaa">
+                            <label for="time"></label><span>*</span>Time<input type="text" name="time" id="time" placeholder="-- : --">
+                            <label for="number"></label><span>*</span>Number of guests<input type="number" name="number" id="number">
+                        </fieldset>
+                        <fieldset>
+                            <legend>Details</legend>
+                            <label for="name"></label><span>*</span>Name<input type="text" name="name" id="name">
+                            <label for="email"></label>Email<input type="email" name="email" id="email">
+                            <label for="telephone"></label><span>*</span>Telephone<input type="tel" name="telephone" id="telephone">
+                        </fieldset>
+                </div>
+                <fieldset class="wrap">
+                    <legend>Further request</legend>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <button type="submit" class="submit">RESERVE</button>
+                </fieldset>
+            </form>
+        </section>
+        <section>
+            <h2>Our location</h2>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15861.223888631064!2d2.4377626!3d6.3544231!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10235509a86a5ab5%3A0x284ff4b0eac477a7!2sVIPP%20Interstis%20Ganhi!5e0!3m2!1sfr!2sbj!4v1685314613791!5m2!1sfr!2sbj" width="650" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-bg">
+            <section>
+                <h4>Opening hours</h4>
+                <ul>
+                    <li>Monday: Closed</li>
+                    <li>Tue-Wed : 9am - 10pm</li>
+                    <li>Thu-Fri : 9am - 10pm</li>
+                    <li>Sat-Sun : 5pm - 10pm</li>
+                </ul>
+            </section>
+            <section>
+                <h4>Contact</h4>
+                <address>
+                    <p>13 Christopher Street</p>
+                    <p>New York,</p>
+                    <p>NY 10014-3543</p>
+                    <a href="tel:+0120008009999">+01 2000 800 9999</a>
+                </address>
+            </section>
+            <section>
+                <h4>Social networks</h4>
+                <div>
+                    <a href="#">
+                        <span class="fa fa-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fab fa-instagram"></span>
+                    </a>
+                    <a href="#"><span class="fa fa-pinterest-p"></span>
+                    </a>
+                </div>
+            </section>
+        </div>
+        <div class="footer">
+            <img src="../ressources/images/logo-3wa.png" alt="logo-footer">
+            <p>Cet exercice de <a href="#">3W Academy</a> est mis à disposition <a href="#">pour l'usage personnel des
+                    étudiants. Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification -
+                    International</a>.</p>
+            <p>Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de contact@3wa.fr. Les
+                maquettes ont été réalisées par <a href="#">Catherine Denos</a>. </p>
+        </div>
+    </footer>
+</body>
+
+</html>
